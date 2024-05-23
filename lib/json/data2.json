@@ -1,0 +1,295 @@
+{
+  "id": 1,
+  "name": "Motlen Chocolate",
+  "slug": "motlen-chocolate",
+  "cuisines": [
+    "Sandwiches",
+    "Italian",
+    "Fast Food"
+  ],
+  "brand_logo": "https://hsaa.hsobjects.com/h/restaurants/logo_ars/000/003/933/68182e31599ffd53989e14419e6b80b7-small.jpg",
+  "cover": "https://rs-menus-api.roocdn.com/images/a1af2cc1-ac62-4ced-bb7a-00d585fe3e6d/image.jpeg?width=1080.75&height=230.75&auto=webp&format=jpg&fit=crop&v=1637484949",
+  "deliveryTime": "15",
+  "rate": 2.3,
+  "delivery_price": 0,
+  "offers": [
+    {
+      "id": 1,
+      "percentage": "-40%",
+      "offer": " 40% off entire menu"
+    }
+  ],
+  "statu": "open",
+  "menu": [
+    {
+      "name": "PIZZAS",
+      "dishes": [
+        {
+          "id": 1,
+          "name": "Focaccia",
+          "price": 20,
+          "descripton": "Sauce tomate, mozzarella, origan, huile d'olive",
+          "img": "https://rs-menus-api.roocdn.com/images/5dfdb43c-5984-4ae3-b285-911f10435596/image.jpeg?width=288&height=288&auto=webp&format=jpg&fit=crop&v=",
+          "requrements": [
+            {
+              "id": 1,
+              "departure": "Spice Level",
+              "arival": false,
+              "multi_options": true,
+              "options": [
+                {
+                  "id": 1,
+                  "value": "Normal",
+                  "price": 1.5
+                },
+                {
+                  "id": 2,
+                  "value": "Spicy",
+                  "price": 2.5
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Choose your Bread",
+              "required": false,
+              "multi_options": false,
+              "options": [
+                {
+                  "id": 2,
+                  "value": "Big",
+                  "price": 1.5
+                },
+                {
+                  "id": 4,
+                  "value": "Bigger",
+                  "price": 2.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Napoli",
+          "price": 45,
+          "descripton": "Sauce tomate, mozzarella, anchois, origan, huile d'olive",
+          "img": "https://rs-menus-api.roocdn.com/images/5dfdb43c-5984-4ae3-b285-911f10435596/image.jpeg?width=288&height=288&auto=webp&format=jpg&fit=crop&v=",
+          "requrements": [
+            {
+              "id": 1,
+              "name": "Spice Level",
+              "required": false,
+              "multi_options": true,
+              "options": [
+                {
+                  "id": 1,
+                  "value": "Spice Normal",
+                  "price": 1.5
+                },
+                {
+                  "id": 2,
+                  "value": "Spicy Moroccan",
+                  "price": 2.5
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Please Choose 1 Wrap",
+              "required": false,
+              "multi_options": false,
+              "options": [
+                {
+                  "id": 3,
+                  "value": "Lentil Rocca",
+                  "price": 1.5
+                },
+                {
+                  "id": 4,
+                  "value": "Halloumi Bread",
+                  "price": 2.5
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "name": "Please Choose 1 Salad",
+              "required": true,
+              "multi_options": false,
+              "options": [
+                {
+                  "id": 3,
+                  "value": "Spicy Moroccan",
+                  "price": 1.5
+                },
+                {
+                  "id": 4,
+                  "value": "Nicoise",
+                  "price": 2.5
+                },
+                {
+                  "id": 3,
+                  "value": "Halloumi, Avocado and Buckwheat",
+                  "price": 1.5
+                },
+                {
+                  "id": 4,
+                  "value": "Lentil Rocca",
+                  "price": 2.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Prosciutto",
+          "price": 34,
+          "descripton": "Sauce tomate, mozzarella, jambon de dinde, huile d'olives, origan",
+          "img": "https://rs-menus-api.roocdn.com/images/2ebed14e-531f-4796-ba87-1a00042a7922/image.jpeg?width=288&height=288&auto=webp&format=jpg&fit=crop&v="
+        },
+        {
+          "name": "Mare E Monti",
+          "price": 20,
+          "descripton": "Sauce tomate, mozzarella, champignons, crevettes",
+          "img": "https://rs-menus-api.roocdn.com/images/2594896e-1d9f-4c47-b008-531c39869d73/image.jpeg?width=288&height=288&auto=webp&format=jpg&fit=crop&v="
+        },
+        {
+          "name": "Funghi",
+          "price": 60,
+          "descripton": "Sauce tomate, mozzarella, champignons frais",
+          "img": "https://rs-menus-api.roocdn.com/images/23277fe7-2a05-4982-9645-fff4d965b1bd/image.jpeg?width=288&height=288&auto=webp&format=jpg&fit=crop&v="
+        }
+      ]
+    },
+    {
+      "name": "VIANDES ",
+      "dishes": [
+        {
+          "name": "Scaloppine Al Limone",
+          "price": 20,
+          "descripton": "Sauce tomate, mozzarella, origan, huile d'olive",
+          "img": "https://rs-menus-api.roocdn.com/images/314e8703-cfb5-4c1e-828d-fb45234a5ea3/image.jpeg?width=288&height=288&auto=webp&format=jpg&fit=crop&v="
+        },
+        {
+          "name": "Emincé de Filet de Bœuf",
+          "price": 45,
+          "descripton": "Sauce tomate, mozzarella, anchois, origan, huile d'olive",
+          "img": "https://rs-menus-api.roocdn.com/images/cfa8e327-1a8c-4bb0-80f2-ab2559bf7694/image.jpeg?width=288&height=288&auto=webp&format=jpg&fit=crop&v="
+        },
+        {
+          "name": "Emincé de Poulet",
+          "price": 34,
+          "descripton": "Sauce tomate, mozzarella, jambon de dinde, huile d'olives, origan",
+          "img": "https://rs-menus-api.roocdn.com/images/db3f358f-7b2b-4ee4-bc1e-6bee9238beb7/image.jpeg?width=288&height=288&auto=webp&format=jpg&fit=crop&v="
+        },
+        {
+          "name": "Mare E Monti",
+          "price": 20,
+          "descripton": "Sauce tomate, mozzarella, champignons, crevettes",
+          "img": "https://rs-menus-api.roocdn.com/images/bbdceaea-37a0-4d0e-a3ff-0d6076319749/image.jpeg?width=288&height=288&auto=webp&format=jpg&fit=crop&v="
+        },
+        {
+          "name": "Scalppine du Chef",
+          "price": 60,
+          "descripton": "Sauce tomate, mozzarella, champignons frais",
+          "img": "https://rs-menus-api.roocdn.com/images/cfa8e327-1a8c-4bb0-80f2-ab2559bf7694/image.jpeg?width=288&height=288&auto=webp&format=jpg&fit=crop&v="
+        },
+        {
+          "name": "Entrecôte",
+          "price": 60,
+          "descripton": "Sauce tomate, mozzarella, champignons frais",
+          "img": "https://rs-menus-api.roocdn.com/images/cfa8e327-1a8c-4bb0-80f2-ab2559bf7694/image.jpeg?width=288&height=288&auto=webp&format=jpg&fit=crop&v="
+        },
+        {
+          "name": "Filetto Alla Griglia",
+          "price": 60,
+          "descripton": "Sauce tomate, mozzarella, champignons frais",
+          "img": "https://rs-menus-api.roocdn.com/images/cfa8e327-1a8c-4bb0-80f2-ab2559bf7694/image.jpeg?width=288&height=288&auto=webp&format=jpg&fit=crop&v="
+        }
+      ]
+    },
+    {
+      "name": "BURGERS",
+      "dishes": [
+        {
+          "name": "Focaccia",
+          "price": 20,
+          "descripton": "Sauce tomate, mozzarella, origan, huile d'olive",
+          "img": "https://rs-menus-api.roocdn.com/images/5dfdb43c-5984-4ae3-b285-911f10435596/image.jpeg?width=288&height=288&auto=webp&format=jpg&fit=crop&v="
+        },
+        {
+          "name": "Napoli",
+          "price": 45,
+          "descripton": "Sauce tomate, mozzarella, anchois, origan, huile d'olive",
+          "img": "https://rs-menus-api.roocdn.com/images/5dfdb43c-5984-4ae3-b285-911f10435596/image.jpeg?width=288&height=288&auto=webp&format=jpg&fit=crop&v="
+        },
+        {
+          "name": "Prosciutto",
+          "price": 34,
+          "descripton": "Sauce tomate, mozzarella, jambon de dinde, huile d'olives, origan",
+          "img": "https://rs-menus-api.roocdn.com/images/2ebed14e-531f-4796-ba87-1a00042a7922/image.jpeg?width=288&height=288&auto=webp&format=jpg&fit=crop&v="
+        },
+        {
+          "name": "Mare E Monti",
+          "price": 20,
+          "descripton": "Sauce tomate, mozzarella, champignons, crevettes",
+          "img": "https://rs-menus-api.roocdn.com/images/2594896e-1d9f-4c47-b008-531c39869d73/image.jpeg?width=288&height=288&auto=webp&format=jpg&fit=crop&v="
+        },
+        {
+          "name": "Funghi",
+          "price": 60,
+          "descripton": "Sauce tomate, mozzarella, champignons frais",
+          "img": "https://rs-menus-api.roocdn.com/images/23277fe7-2a05-4982-9645-fff4d965b1bd/image.jpeg?width=288&height=288&auto=webp&format=jpg&fit=crop&v="
+        }
+      ]
+    },
+    {
+      "name": "TACOS",
+      "dishes": [
+        {
+          "name": "Scaloppine Al Limone",
+          "price": 20,
+          "descripton": "Sauce tomate, mozzarella, origan, huile d'olive",
+          "img": "https://rs-menus-api.roocdn.com/images/314e8703-cfb5-4c1e-828d-fb45234a5ea3/image.jpeg?width=288&height=288&auto=webp&format=jpg&fit=crop&v="
+        },
+        {
+          "name": "Emincé de Filet de Bœuf",
+          "price": 45,
+          "descripton": "Sauce tomate, mozzarella, anchois, origan, huile d'olive",
+          "img": "https://rs-menus-api.roocdn.com/images/cfa8e327-1a8c-4bb0-80f2-ab2559bf7694/image.jpeg?width=288&height=288&auto=webp&format=jpg&fit=crop&v="
+        },
+        {
+          "name": "Emincé de Poulet",
+          "price": 34,
+          "descripton": "Sauce tomate, mozzarella, jambon de dinde, huile d'olives, origan",
+          "img": "https://rs-menus-api.roocdn.com/images/db3f358f-7b2b-4ee4-bc1e-6bee9238beb7/image.jpeg?width=288&height=288&auto=webp&format=jpg&fit=crop&v="
+        },
+        {
+          "name": "Mare E Monti",
+          "price": 20,
+          "descripton": "Sauce tomate, mozzarella, champignons, crevettes",
+          "img": "https://rs-menus-api.roocdn.com/images/bbdceaea-37a0-4d0e-a3ff-0d6076319749/image.jpeg?width=288&height=288&auto=webp&format=jpg&fit=crop&v="
+        },
+        {
+          "name": "Scalppine du Chef",
+          "price": 60,
+          "descripton": "Sauce tomate, mozzarella, champignons frais",
+          "img": "https://rs-menus-api.roocdn.com/images/cfa8e327-1a8c-4bb0-80f2-ab2559bf7694/image.jpeg?width=288&height=288&auto=webp&format=jpg&fit=crop&v="
+        },
+        {
+          "name": "Entrecôte",
+          "price": 60,
+          "descripton": "Sauce tomate, mozzarella, champignons frais",
+          "img": "https://rs-menus-api.roocdn.com/images/cfa8e327-1a8c-4bb0-80f2-ab2559bf7694/image.jpeg?width=288&height=288&auto=webp&format=jpg&fit=crop&v="
+        },
+        {
+          "name": "Filetto Alla Griglia",
+          "price": 60,
+          "descripton": "Sauce tomate, mozzarella, champignons frais",
+          "img": "https://rs-menus-api.roocdn.com/images/cfa8e327-1a8c-4bb0-80f2-ab2559bf7694/image.jpeg?width=288&height=288&auto=webp&format=jpg&fit=crop&v="
+        }
+      ]
+    }
+  ]
+}

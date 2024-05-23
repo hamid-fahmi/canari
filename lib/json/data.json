@@ -1,0 +1,12 @@
+{
+  "restaurant": [
+    {
+      "id": 1,
+      "name": "Dat pizza dough",
+      "slug": "Dat_pizza_dough",
+      "cuisines": [
+        "Amiracan"
+      ]
+    }
+    ]
+}

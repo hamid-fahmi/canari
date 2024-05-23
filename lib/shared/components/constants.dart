@@ -1,0 +1,30 @@
+import 'package:flutter/material.dart';
+
+Color AppColor = Color(0xFFfb133a);
+String url = 'http://www.api.canariapp.com';
+double latitude;
+double longitude;
+String myLocation;
+double storeLatitude;
+double storeLongitude;
+String StoreName;
+dynamic deliveryPrice = 0.0;
+dynamic olddeliveryPrice = 0.0;
+dynamic service_fee = 0.0;
+List paymentMethods =[];
+bool storeStatus;
+int StoreId;
+String type;
+bool Appservice = true;
+bool payment_by_card = false;
+bool coupon_page = false;
+bool location_alert = false;
+bool share_app = false;
+bool serviceStatus = true;
+bool phone_number_verification = false;
+bool start_with_location=false;
+String service_type = 'food';
+String grocery_market_id = '';
+String lg = 'fr';
+
+String peak_time_status = '';
